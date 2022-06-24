@@ -19,9 +19,10 @@ public class StudentManagementSystemApplication {
     @Bean
     public CommandLineRunner dataLoader(StudentRepo repo) {
         return args -> {
-            repo.save(new Student("walid", "antara", "walid@walid.com"));
-            repo.save(new Student("bora", "bora", "bora@bora.com"));
-            repo.save(new Student("hamza", "bamoh", "bamoh@hamza.com"));
+//            repo.deleteAll();
+//            repo.save(new Student("walid", "antara", "walid@walid.com"));
+//            repo.save(new Student("bora", "bora", "bora@bora.com"));
+//            repo.save(new Student("hamza", "bamoh", "bamoh@hamza.com"));
 
         };
 
