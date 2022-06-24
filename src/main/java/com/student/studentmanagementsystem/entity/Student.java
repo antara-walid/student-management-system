@@ -1,7 +1,5 @@
 package com.student.studentmanagementsystem.entity;
 
-import lombok.Data;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -50,6 +48,7 @@ public class Student {
     }
 
     public Student(String firstName, String lastName, String email) {
+        super();
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
